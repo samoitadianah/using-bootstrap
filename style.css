@@ -1,0 +1,482 @@
+/* Global Selectors */
+body {
+    background-color: rgb(244, 245, 246);;
+}
+
+.container {
+    background-color: white;
+}
+
+a:hover {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: bold;
+    color: rgba(3,3,3,.4);
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 0.9375em;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+  }
+  
+  .affix-top {
+    width: 100%;
+  }
+  
+  .affix-bottom {
+    width: 100%;
+    position: absolute;
+  }
+
+
+/* Header */
+.alt-header {
+    display: none;
+}
+
+
+.fixed-header {
+    display: fixed;
+}
+
+.newsweek-header {
+    background-color: red;
+}
+
+.date-header {
+    display: flex;
+    padding: 0 0 20px 20px;
+}
+
+.date-header span {
+    align-self: flex-end;
+    color: white;
+}
+.newsweek-logo img {
+    width: 500px;
+    text-align: center;
+}
+
+.newsweek-logo-small img {
+    width: 200px;
+}
+
+.fa-bars {
+    color: rgba(255,255,255,0.8);
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.link-header {
+    display: flex; 
+    padding: 0 20px 15px 20px;
+    justify-content: end;
+}
+
+.link-header * {
+    align-self: flex-end;
+    
+}
+
+#login {
+    color: white;
+}
+
+#subscribe {
+    color: red;
+    background-color: #fddc34;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+
+/* Navbar */
+.header-bottom {
+    border-bottom: 2px solid rgb(244, 245, 246);
+}
+
+.navbar {
+
+}
+
+.navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+    border-right: 1px solid gray;
+  }
+
+  .navbar-nav > li a{
+      color: black;
+      font-weight: bold;
+      font-size: 14px;
+  }
+
+  .navbar-nav > li a:hover, .red-hover:hover{
+    color: red;
+}
+  .navbar-nav li:first-child {
+      padding-left: 0;
+  }
+
+  .navbar-nav li:last-child {
+      border-right: none;
+  } 
+
+.nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.search1{
+    border-radius: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+/* Featured Stories */
+.image-with-category {
+    position: relative;
+    
+}
+
+.image-with-category div {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255,255,255,.9);
+    color: #f72210;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.image-with-category.border div {
+    color: #3581f4;
+}
+
+
+.card-title {
+    font-weight: bold;
+}
+/* Opinion */
+
+.list-group-item .opinion {
+    display: flex;
+    align-items: center;
+   
+}
+
+.opinion-description a {
+    color: black;
+    font-weight: bold;
+}
+
+.opinion-description p {
+    color: gray;
+    font-weight: bold;
+    font-size: 0.875em;
+}
+
+
+
+
+.opinion-description {
+    display: inline-block;
+    max-width: 325px;
+    margin-left: 10px;
+}
+
+.news {
+    max-width: 250px;
+    vertical-align: top;
+}
+
+/* Culture & Travel */
+.grid-header {
+    grid-column: span 2;
+}
+
+.culture-travel {
+    display: grid;
+    background-color: rgb(244, 245, 247);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+
+}
+
+.light-gray {
+   color: rgba(39, 39, 39, 0.5);
+}
+
+.culture-travel > * {
+    background-color: rgb(244, 245, 247);
+}
+
+.grid-tag {
+    font-size: 0.875em;
+    color: rgb(39, 39, 39);
+    background-color: #c2d4d7;
+    padding: 1px 5px;
+}
+
+/* Latest News */
+
+.image-small {
+    display: inline-block;
+    max-width: 130px;
+    height: auto;
+}
+
+/* Editor's Pick */
+.editor-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+
+.editor-title {
+    grid-column: span 4;
+    font-size: 1.25em;
+}
+
+/* Slideshow grid */
+.slideshow-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.slideshow-title {
+    grid-column: span 3;
+    font-size: 1.25em;
+}
+
+/* Gray box */
+.gray-box {
+    background-color: rgb(229, 229, 229);
+
+}
+
+.icon-n {
+    display: inline-block;
+    width: 32px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.newsletter {
+    font-size: 1.125em;
+}
+
+/* Multi grid */
+.multi-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+
+}
+
+.multi-grid-title {
+    grid-column: span 3;
+    font-size: 1.25em;
+    color: rgb(247, 34, 16);
+}
+
+.two-grid-title {
+    grid-column: span 2;
+    font-size: 1.25em;
+    color: rgb(247, 34, 16);
+}
+
+.one-grid-title {
+    grid-column: span 1;
+    font-size: 1.25em;
+    color: rgb(247, 34, 16);
+}
+
+.subscribe-box {
+    grid-column: span 2;
+}
+
+.magazine {
+    position: relative;
+}
+
+.magazine * {
+    position: absolute;
+}
+
+.magazine-text {
+    margin-left: 300px;
+    
+}
+
+.pence {
+    top: 15px;
+    left: 75px;
+}
+
+.newsletter-box {
+    display: flex;
+}
+
+.newsletter-box-text {
+    width: 220px;
+}
+
+.phone {
+    width: 191px;
+    height: 320px;
+    background: url(images/y.png) center center / cover no-repeat;
+
+}
+
+
+/* Footer */
+
+footer {
+    padding: 0 40px;
+}
+
+.footer-social {
+    border-bottom: 1px solid lightgray;
+}
+
+.social-media *{
+    font-size: 24px;
+    color: rgb(102, 102, 102);
+    padding: 0 5px;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 4px;
+}
+
+.footer-list > li {
+    display: inline-block;
+    border-right: 1px solid #d9d9d9;
+    font-size: 14px;
+    padding: 0 10px 0 0;
+}
+
+.footer-list > li > a, .footer-language > span {
+    color: rgb(102, 102, 102);
+}
+
+#border-none {
+    border: 0 !important;
+}
+
+
+.footer-naviagation-list, .footer-language, .footer-language > * {
+    display: inline-block;
+}
+
+.footer-language > ul {
+    max-width: 300px;
+}
+
+.footer-list *:not(:first-child) {
+    padding-left: 10px;
+}
+
+
+
+@media (min-width: 0px) {
+    .container{
+        max-width: 1310px;
+    }
+
+}
+
+.row {
+    width: 102.4%;
+}
+
+
+
+@media (max-width: 1250px) {
+    .alt-header {
+        display: block;
+    }
+
+    .main-header {
+        display: none;
+    }
+}
+
+
+@media (max-width: 960px) {
+
+
+    .multi-grid {
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    
+    .multi-grid-title {
+        grid-column: span 1;
+    }
+
+    .two-grid-title {
+        grid-column: span 1;
+        font-size: 1.25em;
+        color: rgb(247, 34, 16);
+    }
+    
+    .one-grid-title {
+        grid-column: span 1;
+        font-size: 1.25em;
+        color: rgb(247, 34, 16);
+    }
+    
+    .subscribe-box {
+        grid-column: span 1;
+    }
+}
+
+@media(max-width: 768px) {
+    .culture-travel {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .grid-header {
+        grid-column: span 1;
+    }
+
+    .editor-grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+    }
+    
+    .editor-title {
+        grid-column: span 1;
+        font-size: 1.25em;
+    }
+
+    .slideshow-grid {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .slideshow-title {
+        grid-column: span 1;
+    }
+
+}
